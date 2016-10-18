@@ -1,0 +1,81 @@
+
+
+.card {
+  width: 2in;
+  height: 3in;
+  border: 1px solid black;
+  border-radius: 0.125in;
+  margin: 0;
+
+  position: relative;
+  display: inline-block;
+}
+
+.type {
+  position: absolute;
+
+  left: 0.125in;
+  top: 0.125in;
+
+  background-color: #FFF;
+  border-radius: 100%;
+}
+
+.cost {
+  position: absolute;
+
+  right: 0.125in;
+  top: 0.125in;
+
+  background-color: #FFF;
+  border-radius: 100%;
+}
+
+.flavor_text {
+  position: absolute;
+
+  left: 0.25in;
+  width: 1.5in;
+  top: 0.5in;
+  height: 0.5in;
+  background-color: #FFF;
+
+  text-align: center;
+}
+
+.action_text {
+  position: absolute;
+
+  left: 0.25in;
+  width: 1.5in;
+  top: 1.125in;
+  height: 1.625in;
+  background-color: #FFF;
+
+  text-align: justify;
+}
+
+.L {
+  background-color: #E1BEE7;
+}
+
+.S {
+  background-color: #F5F5F5;
+}
+
+.M {
+  background-color: #B3E5FC;
+}
+
+.F {
+  background-color: #FFCCBC;
+}
+
+.R {
+  background-color: #f44336;
+}
+
+span {
+  display: inline-block;
+  margin: 0.0625in 0.0625in;
+}
