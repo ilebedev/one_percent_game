@@ -3,18 +3,10 @@
 <head>
   <link rel="stylesheet" href="style.css">
   <script src="https://unpkg.com/vue@next/dist/vue.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 <body>
   <div id="app">
-    <!-- Template for a card -->
-    <!--
-    <div class="card type_L">
-      <div class="type"><span>L</span></div>
-        <div class="cost"><span>12</span></div>
-      <div class="flavor_text"><span>High-end Jewelery Shop</span></div>
-      <div class="action_text"><span>Produce 6 income at the start of your turn.</span></div>
-    </div>
-    -->
 
     <div id="generated_cards">
       <generated-card v-for="card in cards" v-bind:card="card">Hi</generated-card>
